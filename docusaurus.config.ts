@@ -20,6 +20,9 @@ const config: Config = {
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
 
+    // GitHub Pages 推荐配置
+    trailingSlash: false,
+
     // 国际化配置
     i18n: {
         defaultLocale: 'zh-CN',
