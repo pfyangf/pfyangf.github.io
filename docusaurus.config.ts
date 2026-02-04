@@ -74,20 +74,16 @@ const config: Config = {
                     // 摘要分隔符
                     truncateMarker: /<!--\s*truncate\s*-->/,
 
-                    // Feed 配置（RSS/Atom）
-                    feedOptions: {
-                        type: ['rss', 'atom'],
-                        title: '我的技术博客',
-                        description: '分享技术，记录成长',
-                        copyright: `Copyright © ${new Date().getFullYear()} My Blog`,
-                        language: 'zh-CN',
-                    },
-
                     // 编辑链接配置
-                    editUrl: 'https://github.com/your-org/blog-v1/tree/main/',
+                    editUrl: 'https://github.com/pfyangf/blog-v1/tree/main/',
 
                     // 博客作者配置
                     authorsMapPath: 'authors.yml',
+
+                    // 禁用 RSS/Atom feed（避免构建错误）
+                    feedOptions: {
+                        type: null,
+                    },
 
                     // MDX 配置
                     remarkPlugins: [],
@@ -198,19 +194,20 @@ const config: Config = {
                         },
                     ],
                 },
-                {
-                    title: '更多',
-                    items: [
-                        {
-                            label: 'RSS',
-                            to: '/rss.xml',
-                        },
-                        {
-                            label: 'Atom',
-                            to: '/atom.xml',
-                        },
-                    ],
-                },
+                // 移除 RSS/Atom 链接，因为需要额外配置才能生成这些文件
+                // {
+                //     title: '更多',
+                //     items: [
+                //         {
+                //             label: 'RSS',
+                //             to: '/rss.xml',
+                //         },
+                //         {
+                //             label: 'Atom',
+                //             to: '/atom.xml',
+                //         },
+                //     ],
+                // },
             ],
             copyright: `Copyright © ${new Date().getFullYear()} My Blog. Built with Docusaurus.`,
         },
