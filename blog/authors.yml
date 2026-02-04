@@ -1,0 +1,20 @@
+# 博客作者配置文件
+# 在博客文章的 frontmatter 中使用 authors: [author_key] 来引用
+
+admin:
+  name: 管理员
+  title: 全栈工程师
+  url: https://github.com/yourusername
+  image_url: https://github.com/yourusername.png
+  email: admin@example.com
+  page: true
+  socials:
+    github: https://github.com/yourusername
+    twitter: https://twitter.com/yourhandle
+
+guest:
+  name: 访客作者
+  title: 技术爱好者
+  url: https://example.com
+  image_url: /img/default-avatar.png
+  page: false

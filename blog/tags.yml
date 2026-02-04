@@ -1,0 +1,72 @@
+# 标签配置文件
+# 为标签提供更丰富的元数据和描述
+
+frontend:
+  label: 前端开发
+  permalink: /frontend
+  description: 前端开发相关技术文章
+
+backend:
+  label: 后端开发
+  permalink: /backend
+  description: 后端开发相关技术文章
+
+javascript:
+  label: JavaScript
+  permalink: /javascript
+  description: JavaScript 编程语言
+
+typescript:
+  label: TypeScript
+  permalink: /typescript
+  description: TypeScript 编程语言
+
+react:
+  label: React
+  permalink: /react
+  description: React 框架相关
+
+vue:
+  label: Vue
+  permalink: /vue
+  description: Vue 框架相关
+
+nodejs:
+  label: Node.js
+  permalink: /nodejs
+  description: Node.js 运行时
+
+python:
+  label: Python
+  permalink: /python
+  description: Python 编程语言
+
+java:
+  label: Java
+  permalink: /java
+  description: Java 编程语言
+
+database:
+  label: 数据库
+  permalink: /database
+  description: 数据库相关技术
+
+devops:
+  label: DevOps
+  permalink: /devops
+  description: DevOps 和运维相关
+
+tutorial:
+  label: 教程
+  permalink: /tutorial
+  description: 技术教程和指南
+
+best-practices:
+  label: 最佳实践
+  permalink: /best-practices
+  description: 编程最佳实践
+
+architecture:
+  label: 架构设计
+  permalink: /architecture
+  description: 软件架构设计

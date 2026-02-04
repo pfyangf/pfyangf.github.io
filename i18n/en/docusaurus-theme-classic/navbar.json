@@ -1,0 +1,26 @@
+{
+  "title": {
+    "message": "My Blog",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.博客": {
+    "message": "Blog",
+    "description": "Navbar item with label Blog"
+  },
+  "item.label.标签": {
+    "message": "Tags",
+    "description": "Navbar item with label Tags"
+  },
+  "item.label.归档": {
+    "message": "Archive",
+    "description": "Navbar item with label Archive"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}

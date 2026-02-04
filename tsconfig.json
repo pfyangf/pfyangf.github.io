@@ -1,0 +1,15 @@
+{
+    "extends": "@docusaurus/tsconfig",
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@site/*": [
+                "./*"
+            ]
+        },
+        "jsx": "react",
+        "esModuleInterop": true,
+        "moduleResolution": "bundler",
+        "skipLibCheck": true
+    }
+}
