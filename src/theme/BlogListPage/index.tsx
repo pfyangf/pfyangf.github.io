@@ -17,8 +17,8 @@ function BlogListPageMetadata(props: Props): JSX.Element {
     return (
         <>
             <PageMetadata
-                title="AutoSec - Web3 Security Research & Blockchain Vulnerability Analysis"
-                description="Leading Web3 security research platform. Expert analysis on blockchain vulnerabilities, smart contract audits, DeFi security, and cryptocurrency protection."
+                title="The Immunefi Blog - Web3 Security Research"
+                description="Your source of news for the Security OS for the onchain economy. Expert analysis on blockchain vulnerabilities and smart contract security."
             />
             <SearchMetadata tag="blog_posts_list" />
         </>
@@ -27,13 +27,14 @@ function BlogListPageMetadata(props: Props): JSX.Element {
 
 function BlogListPageContent(props: Props): JSX.Element {
     const { metadata, items: initialItems, sidebar } = props;
-    const [displayedItems, setDisplayedItems] = useState(initialItems.slice(0, 6));
+    const [displayedItems, setDisplayedItems] = useState(initialItems.slice(1, 7)); // 从第二篇开始
     const [page, setPage] = useState(1);
-    const [hasMore, setHasMore] = useState(initialItems.length > 6);
+    const [hasMore, setHasMore] = useState(initialItems.length > 7);
     const [loading, setLoading] = useState(false);
     const loaderRef = useRef<HTMLDivElement>(null);
 
     const ITEMS_PER_PAGE = 6;
+    const firstItem = initialItems[0]; // 第一篇文章
 
     // Infinite scroll logic
     useEffect(() => {
@@ -65,7 +66,7 @@ function BlogListPageContent(props: Props): JSX.Element {
         // Simulate loading delay for smooth UX
         setTimeout(() => {
             const nextPage = page + 1;
-            const startIndex = nextPage * ITEMS_PER_PAGE;
+            const startIndex = nextPage * ITEMS_PER_PAGE + 1; // +1 因为第一篇单独显示
             const endIndex = startIndex + ITEMS_PER_PAGE;
             const newItems = initialItems.slice(startIndex, endIndex);
 
@@ -82,9 +83,26 @@ function BlogListPageContent(props: Props): JSX.Element {
     };
 
     return (
-        <BlogLayout sidebar={sidebar}>
+        <BlogLayout>
             <Hero />
             <div className="container margin-vert--lg">
+                {/* 第一篇文章 - 特殊展示 */}
+                {firstItem && (
+                    <div className="featured-post-wrapper">
+                        <BlogPostItems items={[firstItem]} />
+
+                        {/* 分割线 */}
+                        <div className="featured-divider">
+                            <div className="divider-line"></div>
+                            <div className="divider-line"></div>
+                        </div>
+
+                        {/* CONTINUE EXPLORING 标题 */}
+                        <h2 className="continue-exploring">CONTINUE EXPLORING</h2>
+                    </div>
+                )}
+
+                {/* 其他文章 */}
                 <div className="row">
                     <div className="col col--12">
                         <BlogPostItems items={displayedItems} />
@@ -115,6 +133,44 @@ function BlogListPageContent(props: Props): JSX.Element {
             </div>
 
             <style>{`
+        .featured-post-wrapper {
+          margin-bottom: 3rem;
+        }
+
+        .featured-post-wrapper article {
+          max-width: 100%;
+        }
+
+        .featured-divider {
+          display: flex;
+          align-items: center;
+          margin: 3rem 0 2rem 0;
+          gap: 1rem;
+        }
+
+        .divider-line {
+          flex: 1;
+          height: 1px;
+          background: var(--ifm-color-emphasis-300);
+        }
+
+        .divider-text {
+          color: var(--ifm-color-emphasis-600);
+          font-size: 0.75rem;
+          font-weight: 600;
+          letter-spacing: 0.1em;
+          white-space: nowrap;
+        }
+
+        .continue-exploring {
+          color: var(--ifm-color-emphasis-700);
+          font-size: 0.875rem;
+          font-weight: 600;
+          letter-spacing: 0.1em;
+          margin-bottom: 2rem;
+          text-transform: uppercase;
+        }
+
         .loading-spinner {
           display: flex;
           flex-direction: column;

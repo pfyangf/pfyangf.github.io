@@ -2,7 +2,7 @@
 slug: smart-contract-audit-process
 title: Detailed Explanation of the Smart Contract Audit Process
 authors: [autosec]
-tags: [audit, smart contract, security]
+tags: [customers]
 date: 2025-04-18T10:00
 ---
 

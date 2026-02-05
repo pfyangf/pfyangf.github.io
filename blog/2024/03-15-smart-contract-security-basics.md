@@ -2,8 +2,9 @@
 slug: smart-contract-security-basics
 title: 智能合约安全基础
 authors: [autosec]
-tags: [智能合约, 安全, Solidity]
+tags: [customers]
 date: 2024-03-15T10:00
+image: https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=630&fit=crop
 ---
 
 智能合约安全是区块链开发的核心。本文介绍智能合约安全的基本概念和常见漏洞。

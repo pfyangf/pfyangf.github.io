@@ -2,7 +2,7 @@
 slug: zero-knowledge-proofs-intro
 title: Introduction to Zero-Knowledge Proofs
 authors: [autosec]
-tags: [zero-knowledge proofs, privacy, ZK]
+tags: [security-guides]
 date: 2026-03-20T10:00
 ---
 

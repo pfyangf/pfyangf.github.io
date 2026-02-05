@@ -2,7 +2,7 @@
 slug: web3-security-checklist-2026
 title: 2026 Web3 Security Checklist
 authors: [autosec]
-tags: [security check, Web3, best practices]
+tags: [security-guides]
 date: 2026-09-25T10:00
 ---
 

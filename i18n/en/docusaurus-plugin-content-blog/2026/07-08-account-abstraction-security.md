@@ -2,7 +2,7 @@
 slug: account-abstraction-security
 title: Account Abstraction Security Analysis
 authors: [autosec]
-tags: [account abstraction, ERC-4337, security]
+tags: [whitehat-spotlight]
 date: 2026-07-08T10:00
 ---
 

@@ -2,8 +2,9 @@
 slug: smart-contract-security-basics
 title: Smart Contract Security Basics
 authors: [autosec]
-tags: [smart contract, security, Solidity]
+tags: [customers]
 date: 2024-03-15T10:00
+image: https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=630&fit=crop
 ---
 
 Smart contract security is at the core of blockchain development. This article introduces the fundamental concepts and common vulnerabilities of smart contract security.

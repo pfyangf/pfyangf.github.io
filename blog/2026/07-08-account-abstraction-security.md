@@ -2,7 +2,7 @@
 slug: account-abstraction-security
 title: 账户抽象安全分析
 authors: [autosec]
-tags: [账户抽象, ERC-4337, 安全]
+tags: [whitehat-spotlight]
 date: 2026-07-08T10:00
 ---
 

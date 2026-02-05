@@ -2,7 +2,7 @@
 slug: dao-governance-security
 title: DAO 治理安全指南
 authors: [autosec]
-tags: [DAO, 治理, 安全]
+tags: [security-guides]
 date: 2025-09-30T10:00
 ---
 

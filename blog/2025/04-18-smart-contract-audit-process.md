@@ -2,7 +2,7 @@
 slug: smart-contract-audit-process
 title: 智能合约审计流程详解
 authors: [autosec]
-tags: [审计, 智能合约, 安全]
+tags: [customers]
 date: 2025-04-18T10:00
 ---
 

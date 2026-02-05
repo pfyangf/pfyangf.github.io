@@ -2,7 +2,7 @@
 slug: blockchain-security-trends
 title: 2024 区块链安全趋势
 authors: [autosec]
-tags: [区块链, 安全趋势, Web3]
+tags: [whitehat-spotlight]
 date: 2024-12-15T10:00
 ---
 

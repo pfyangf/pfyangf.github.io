@@ -2,7 +2,7 @@
 slug: ai-blockchain-security
 title: The Integration of AI and Blockchain Security
 authors: [autosec]
-tags: [AI, blockchain security, artificial intelligence]
+tags: [whitehat-spotlight]
 date: 2026-01-15T10:00
 ---
 

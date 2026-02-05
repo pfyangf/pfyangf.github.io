@@ -2,8 +2,9 @@
 slug: defi-security-guide
 title: DeFi Security Guide
 authors: [autosec]
-tags: [DeFi, security, decentralized finance]
+tags: [whitehat-spotlight]
 date: 2024-06-20T10:00
+image: https://images.unsplash.com/photo-1621761191319-c6fb62004040?w=1200&h=630&fit=crop
 ---
 
 DeFi (Decentralized Finance) is transforming the financial industry but also introduces new security challenges.

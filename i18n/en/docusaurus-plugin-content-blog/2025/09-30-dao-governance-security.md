@@ -2,7 +2,7 @@
 slug: dao-governance-security
 title: DAO Governance Security Guide
 authors: [autosec]
-tags: [DAO, governance, security]
+tags: [security-guides]
 date: 2025-09-30T10:00
 ---
 

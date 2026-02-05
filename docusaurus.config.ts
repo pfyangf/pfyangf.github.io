@@ -24,8 +24,8 @@ const config: Config = {
 
     // 国际化配置
     i18n: {
-        defaultLocale: 'zh-CN',
-        locales: ['zh-CN', 'en'],
+        defaultLocale: 'en',
+        locales: ['en', 'zh-CN'],
         localeConfigs: {
             'zh-CN': {
                 label: '简体中文',
@@ -141,81 +141,59 @@ const config: Config = {
             items: [
                 {
                     to: '/',
-                    label: 'Research',
+                    label: 'Home',
                     position: 'left',
                 },
                 {
-                    to: '/tags',
-                    label: 'Topics',
+                    to: '/tags/customers',
+                    label: 'Customers',
                     position: 'left',
                 },
                 {
-                    to: '/archive',
-                    label: 'Archive',
+                    to: '/tags/whitehat-spotlight',
+                    label: 'Whitehat Spotlight',
                     position: 'left',
                 },
                 {
-                    type: 'localeDropdown',
-                    position: 'right',
-                },
-                {
-                    href: 'https://github.com/pfyangf/pfyangf.github.io',
-                    label: 'GitHub',
-                    position: 'right',
+                    to: '/tags/security-guides',
+                    label: 'Security Guides',
+                    position: 'left',
                 },
             ],
         },
 
         // 页脚配置
         footer: {
-            style: 'dark',
+            style: 'light',
             links: [
                 {
-                    title: '博客',
+                    title: 'Blog',
                     items: [
                         {
-                            label: '最新文章',
+                            label: 'Home',
                             to: '/',
                         },
                         {
-                            label: '标签',
-                            to: '/tags',
-                        },
-                        {
-                            label: '归档',
+                            label: 'Archive',
                             to: '/archive',
                         },
                     ],
                 },
                 {
-                    title: '社交',
+                    title: 'Follow',
                     items: [
                         {
                             label: 'GitHub',
-                            href: 'https://github.com/your-org',
+                            href: 'https://github.com/pfyangf/pfyangf.github.io',
                         },
                         {
                             label: 'Twitter',
-                            href: 'https://twitter.com/yourhandle',
+                            href: 'https://twitter.com/autosec',
                         },
                     ],
                 },
-                // 移除 RSS/Atom 链接，因为需要额外配置才能生成这些文件
-                // {
-                //     title: '更多',
-                //     items: [
-                //         {
-                //             label: 'RSS',
-                //             to: '/rss.xml',
-                //         },
-                //         {
-                //             label: 'Atom',
-                //             to: '/atom.xml',
-                //         },
-                //     ],
-                // },
             ],
-            copyright: `Copyright © ${new Date().getFullYear()} AutoSec. Securing the Web3 Ecosystem.`,
+            copyright: `Copyright © ${new Date().getFullYear()} AutoSec. All rights reserved.`,
         },
 
         // 代码高亮主题
@@ -228,8 +206,8 @@ const config: Config = {
         // 颜色模式配置
         colorMode: {
             defaultMode: 'light',
-            disableSwitch: false,
-            respectPrefersColorScheme: true,
+            disableSwitch: true,
+            respectPrefersColorScheme: false,
         },
 
         // 公告栏（可选）

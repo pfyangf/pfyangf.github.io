@@ -2,7 +2,7 @@
 slug: crypto-wallet-recovery
 title: Cryptocurrency Wallet Recovery Guide
 authors: [autosec]
-tags: [wallet recovery, seed phrase, security]
+tags: [customers]
 date: 2025-11-25T10:00
 ---
 

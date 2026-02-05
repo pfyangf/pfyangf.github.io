@@ -1,25 +1,78 @@
-import React from 'react';
-import BlogPostItem from '@theme-original/BlogPostItem';
-import type BlogPostItemType from '@theme/BlogPostItem';
-import type { WrapperProps } from '@docusaurus/types';
+import React, { type ReactNode } from 'react';
+import clsx from 'clsx';
+import { useBlogPost } from '@docusaurus/plugin-content-blog/client';
+import BlogPostItemContainer from '@theme/BlogPostItem/Container';
+import BlogPostItemHeader from '@theme/BlogPostItem/Header';
+import BlogPostItemContent from '@theme/BlogPostItem/Content';
+import BlogPostItemFooter from '@theme/BlogPostItem/Footer';
+import type { Props } from '@theme/BlogPostItem';
 
-type Props = WrapperProps<typeof BlogPostItemType>;
+// apply a bottom margin in list view
+function useContainerClassName() {
+  const { isBlogPostPage } = useBlogPost();
+  return !isBlogPostPage ? 'margin-bottom--xl' : undefined;
+}
 
-/**
- * 自定义博客文章组件包装器
- * 这是一个 Wrap 模式的 Swizzle 组件示例
- * 在原有组件基础上添加自定义功能
- */
-export default function BlogPostItemWrapper(props: Props): JSX.Element {
+export default function BlogPostItem({ children, className }: Props): ReactNode {
+  const containerClassName = useContainerClassName();
+  const { metadata, isBlogPostPage } = useBlogPost();
+  const { frontMatter } = metadata;
+
+  // 如果是列表页，使用自定义布局
+  if (!isBlogPostPage) {
+    const hasImage = frontMatter.image;
+
     return (
-        <>
-            <BlogPostItem {...props} />
-            {/* 可以在这里添加自定义内容，例如评论系统 */}
-            {props.children && (
-                <div style={{ marginTop: '2rem', padding: '1rem', borderTop: '1px solid var(--ifm-color-emphasis-200)' }}>
-                    {/* 这里可以添加 Giscus 评论系统或其他自定义内容 */}
-                </div>
-            )}
-        </>
+      <BlogPostItemContainer className={clsx(containerClassName, className)}>
+        <div style={{
+          display: 'flex',
+          flexDirection: hasImage ? 'row' : 'column',
+          gap: hasImage ? '1.5rem' : '0'
+        }}>
+          {/* 左侧图片 (40%) */}
+          {hasImage && (
+            <div style={{
+              flex: '0 0 40%',
+              overflow: 'hidden',
+              borderRadius: '8px'
+            }}>
+              <img
+                src={frontMatter.image}
+                alt={metadata.title}
+                style={{
+                  width: '100%',
+                  height: '100%',
+                  minHeight: '200px',
+                  maxHeight: '300px',
+                  objectFit: 'cover',
+                  display: 'block'
+                }}
+              />
+            </div>
+          )}
+
+          {/* 右侧内容 (60%) */}
+          <div style={{
+            flex: hasImage ? '0 0 60%' : '1',
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'center'
+          }}>
+            <BlogPostItemHeader />
+            <BlogPostItemContent>{children}</BlogPostItemContent>
+            <BlogPostItemFooter />
+          </div>
+        </div>
+      </BlogPostItemContainer>
     );
+  }
+
+  // 详情页保持原样
+  return (
+    <BlogPostItemContainer className={clsx(containerClassName, className)}>
+      <BlogPostItemHeader />
+      <BlogPostItemContent>{children}</BlogPostItemContent>
+      <BlogPostItemFooter />
+    </BlogPostItemContainer>
+  );
 }

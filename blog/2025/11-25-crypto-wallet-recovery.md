@@ -2,7 +2,7 @@
 slug: crypto-wallet-recovery
 title: 加密钱包恢复指南
 authors: [autosec]
-tags: [钱包恢复, 助记词, 安全]
+tags: [customers]
 date: 2025-11-25T10:00
 ---
 

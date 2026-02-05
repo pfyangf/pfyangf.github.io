@@ -2,7 +2,7 @@
 slug: web3-phishing-attacks
 title: Web3 钓鱼攻击防范指南
 authors: [autosec]
-tags: [钓鱼攻击, Web3安全, 防护]
+tags: [security-guides]
 date: 2025-02-10T10:00
 ---
 

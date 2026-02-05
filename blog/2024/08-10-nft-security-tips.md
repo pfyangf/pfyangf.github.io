@@ -2,8 +2,9 @@
 slug: nft-security-tips
 title: NFT 安全使用技巧
 authors: [autosec]
-tags: [NFT, 安全, 数字资产]
+tags: [security-guides]
 date: 2024-08-10T10:00
+image: https://images.unsplash.com/photo-1620321023374-d1a68fbc720d?w=1200&h=630&fit=crop
 ---
 
 NFT 市场火热，但诈骗和攻击事件频发。了解如何安全地使用 NFT 至关重要。

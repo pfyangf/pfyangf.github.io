@@ -2,8 +2,9 @@
 slug: nft-security-tips
 title: NFT Security Tips
 authors: [autosec]
-tags: [NFT, security, digital assets]
+tags: [security-guides]
 date: 2024-08-10T10:00
+image: https://images.unsplash.com/photo-1620321023374-d1a68fbc720d?w=1200&h=630&fit=crop
 ---
 
 The NFT market is booming, but scams and attacks are frequent. Understanding how to use NFTs safely is crucial.

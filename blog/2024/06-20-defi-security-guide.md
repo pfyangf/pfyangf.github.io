@@ -2,8 +2,9 @@
 slug: defi-security-guide
 title: DeFi 安全指南
 authors: [autosec]
-tags: [DeFi, 安全, 去中心化金融]
+tags: [whitehat-spotlight]
 date: 2024-06-20T10:00
+image: https://images.unsplash.com/photo-1621761191319-c6fb62004040?w=1200&h=630&fit=crop
 ---
 
 DeFi（去中心化金融）正在改变金融行业，但也带来了新的安全挑战。
