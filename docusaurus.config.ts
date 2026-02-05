@@ -4,8 +4,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
     // 网站基本信息
-    title: '我的技术博客',
-    tagline: '分享技术，记录成长',
+    title: 'AutoSec',
+    tagline: 'Securing the Future of Web3 - Advanced Blockchain Security Research & Insights',
     favicon: 'img/favicon.ico',
 
     // 部署配置
@@ -68,8 +68,8 @@ const config: Config = {
                     blogSidebarCount: 10,
 
                     // 博客列表页标题
-                    blogTitle: '博客',
-                    blogDescription: '一个基于 Docusaurus 的专业博客系统',
+                    blogTitle: 'Security Research',
+                    blogDescription: 'Cutting-edge Web3 security research, smart contract audits, and blockchain vulnerability analysis',
 
                     // 显示阅读时间
                     showReadingTime: true,
@@ -121,8 +121,9 @@ const config: Config = {
     themeConfig: {
         // SEO 元数据
         metadata: [
-            { name: 'keywords', content: 'blog, 技术博客, Docusaurus, TypeScript' },
-            { name: 'author', content: 'Your Name' },
+            { name: 'keywords', content: 'Web3 Security, Blockchain Security, Smart Contract Audit, DeFi Security, Cryptocurrency Security, Bug Bounty, Vulnerability Research, Ethereum Security, Solidity Security' },
+            { name: 'author', content: 'AutoSec Team' },
+            { name: 'description', content: 'AutoSec - Leading Web3 security research platform. Expert analysis on blockchain vulnerabilities, smart contract audits, and DeFi security.' },
         ],
 
         // 网站图片（用于社交媒体分享）
@@ -130,25 +131,28 @@ const config: Config = {
 
         // 导航栏配置
         navbar: {
-            title: '我的博客',
+            title: '',
             logo: {
-                alt: 'Logo',
-                src: 'img/logo.svg',
+                alt: 'AutoSec - Web3 Security Platform',
+                src: 'img/autosec.png',
+                srcDark: 'img/autosec.png',
+                width: 180,
+                height: 60,
             },
             items: [
                 {
                     to: '/',
-                    label: '博客',
+                    label: 'Research',
                     position: 'left',
                 },
                 {
                     to: '/tags',
-                    label: '标签',
+                    label: 'Topics',
                     position: 'left',
                 },
                 {
                     to: '/archive',
-                    label: '归档',
+                    label: 'Archive',
                     position: 'left',
                 },
                 {
@@ -212,7 +216,7 @@ const config: Config = {
                 //     ],
                 // },
             ],
-            copyright: `Copyright © ${new Date().getFullYear()} My Blog. Built with Docusaurus.`,
+            copyright: `Copyright © ${new Date().getFullYear()} AutoSec. Securing the Web3 Ecosystem.`,
         },
 
         // 代码高亮主题

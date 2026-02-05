@@ -1,19 +1,19 @@
 {
   "title": {
-    "message": "My Blog",
+    "message": "AutoSec",
     "description": "The title in the navbar"
   },
   "logo.alt": {
-    "message": "Logo",
+    "message": "AutoSec Logo",
     "description": "The alt text of navbar logo"
   },
   "item.label.博客": {
-    "message": "Blog",
-    "description": "Navbar item with label Blog"
+    "message": "Research",
+    "description": "Navbar item with label Research"
   },
   "item.label.标签": {
-    "message": "Tags",
-    "description": "Navbar item with label Tags"
+    "message": "Topics",
+    "description": "Navbar item with label Topics"
   },
   "item.label.归档": {
     "message": "Archive",

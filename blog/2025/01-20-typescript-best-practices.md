@@ -1,9 +1,9 @@
 ---
 slug: typescript-best-practices
 title: TypeScript 最佳实践指南
-authors: [admin]
-tags: [typescript, best-practices, frontend]
-date: 2025-01-20T14:30
+authors: [autosec]
+tags: [typescript, javascript, best-practices]
+date: 2025-01-20T10:00
 ---
 
 TypeScript 已经成为现代前端开发的标准配置。本文将分享一些 TypeScript 开发中的最佳实践。

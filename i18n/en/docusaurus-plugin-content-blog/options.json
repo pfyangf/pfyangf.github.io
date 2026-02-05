@@ -1,14 +1,14 @@
 {
   "title": {
-    "message": "博客",
+    "message": "Security Research",
     "description": "The title for the blog used in SEO"
   },
   "description": {
-    "message": "一个基于 Docusaurus 的专业博客系统",
+    "message": "Cutting-edge Web3 security research, smart contract audits, and blockchain vulnerability analysis",
     "description": "The description for the blog used in SEO"
   },
   "sidebar.title": {
-    "message": "最近文章",
+    "message": "Recent Research",
     "description": "The label for the left sidebar"
   }
 }

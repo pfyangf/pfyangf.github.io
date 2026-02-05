@@ -1,7 +1,7 @@
 ---
 slug: react-hooks-guide
 title: React Hooks 完全指南
-authors: [admin]
+authors: [autosec]
 tags: [react, frontend, javascript, tutorial]
 date: 2025-02-01T09:00
 description: 深入理解 React Hooks 的使用方法和最佳实践

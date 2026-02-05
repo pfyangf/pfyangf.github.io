@@ -1,7 +1,7 @@
 ---
 slug: welcome-to-my-blog
 title: 欢迎来到我的技术博客
-authors: [admin]
+authors: [autosec]
 tags: [tutorial, frontend, backend]
 date: 2025-01-15T10:00
 ---
