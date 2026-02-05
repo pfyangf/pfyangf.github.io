@@ -22,5 +22,17 @@
   "item.label.GitHub": {
     "message": "GitHub",
     "description": "Navbar item with label GitHub"
+  },
+  "item.label.Research": {
+    "message": "Research",
+    "description": "Navbar item with label Research"
+  },
+  "item.label.Topics": {
+    "message": "Topics",
+    "description": "Navbar item with label Topics"
+  },
+  "item.label.Archive": {
+    "message": "Archive",
+    "description": "Navbar item with label Archive"
   }
 }
