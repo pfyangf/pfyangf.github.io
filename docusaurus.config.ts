@@ -156,7 +156,7 @@ const config: Config = {
                     position: 'right',
                 },
                 {
-                    href: 'https://github.com/your-org/blog-v1',
+                    href: 'https://github.com/pfyangf/pfyangf.github.io',
                     label: 'GitHub',
                     position: 'right',
                 },
