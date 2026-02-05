@@ -1,4 +1,3 @@
-```markdown
 ---
 slug: ai-blockchain-security
 title: The Integration of AI and Blockchain Security
@@ -55,4 +54,3 @@ AI will play a larger role in:
 ## Conclusion
 
 The integration of AI and blockchain security will open up new possibilities.
-```

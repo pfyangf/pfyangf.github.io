@@ -1,4 +1,3 @@
-```markdown
 ---
 slug: crypto-wallet-recovery
 title: Cryptocurrency Wallet Recovery Guide
@@ -62,4 +61,3 @@ It is recommended to test the recovery process with a small amount of funds to e
 ## Conclusion
 
 A proper backup and recovery process is the last line of defense in protecting your assets.
-```

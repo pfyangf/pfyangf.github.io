@@ -1,4 +1,3 @@
-```markdown
 ---
 slug: zero-knowledge-proofs-intro
 title: Introduction to Zero-Knowledge Proofs
@@ -54,4 +53,3 @@ Prove identity without revealing specific information.
 ## Conclusion
 
 Zero-Knowledge Proofs represent a crucial direction for blockchain technology development and are worth deep exploration.
-```

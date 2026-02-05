@@ -1,4 +1,3 @@
-```markdown
 ---
 slug: smart-contract-audit-process
 title: Detailed Explanation of the Smart Contract Audit Process
@@ -53,4 +52,3 @@ Understand the complete smart contract audit process to ensure the code is secur
 ## Conclusion
 
 Professional security audits are a necessary step before deploying smart contracts.
-```

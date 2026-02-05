@@ -1,4 +1,3 @@
-```markdown
 ---
 slug: layer2-security-analysis
 title: Layer 2 Security Analysis
@@ -48,4 +47,3 @@ Sequencers in most Layer 2 solutions are centralized.
 ## Conclusion
 
 Layer 2 offers scaling solutions, but it's crucial to understand their security trade-offs.
-```

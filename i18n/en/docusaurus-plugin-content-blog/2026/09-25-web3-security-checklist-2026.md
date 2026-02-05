@@ -1,4 +1,3 @@
-```markdown
 ---
 slug: web3-security-checklist-2026
 title: 2026 Web3 Security Checklist
@@ -101,4 +100,3 @@ A comprehensive Web3 security checklist to help developers and users enhance sec
 ## Conclusion
 
 Security is an ongoing process that requires the joint effort of all participants. Regularly review and update this checklist to stay vigilant.
-```

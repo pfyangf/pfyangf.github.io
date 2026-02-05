@@ -1,4 +1,3 @@
-```markdown
 ---
 slug: account-abstraction-security
 title: Account Abstraction Security Analysis
@@ -64,4 +63,3 @@ Custom validation logic may contain vulnerabilities.
 ## Conclusion
 
 Account Abstraction offers a better user experience, but understanding its security model is essential.
-```

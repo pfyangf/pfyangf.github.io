@@ -1,4 +1,3 @@
-```markdown
 ---
 slug: mev-protection-strategies
 title: MEV Protection Strategies
@@ -58,4 +57,3 @@ Allows users to benefit from MEV rather than be exploited by it.
 ## Conclusion
 
 Understanding MEV and taking protective measures can help reduce trading losses.
-```

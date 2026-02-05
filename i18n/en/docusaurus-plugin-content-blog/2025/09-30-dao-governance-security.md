@@ -1,4 +1,3 @@
-```markdown
 ---
 slug: dao-governance-security
 title: DAO Governance Security Guide
@@ -52,4 +51,3 @@ Analysis of several DAO governance attack cases:
 ## Conclusion
 
 DAO governance requires a balance between decentralization and security.
-```
