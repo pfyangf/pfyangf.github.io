@@ -75,7 +75,7 @@ if __name__ == "__main__":
 ---
 slug: my-new-post
 title: 我的新文章
-authors: [admin]
+authors: [autosec]
 tags: [javascript, react]
 date: 2025-01-20T10:00
 ---

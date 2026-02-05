@@ -1,7 +1,7 @@
 ---
 slug: typescript-best-practices
 title: TypeScript Best Practices Guide
-authors: [admin]
+authors: [autosec]
 tags: [typescript, best-practices, frontend]
 date: 2025-01-20T14:30
 description: A comprehensive guide to TypeScript best practices for modern development

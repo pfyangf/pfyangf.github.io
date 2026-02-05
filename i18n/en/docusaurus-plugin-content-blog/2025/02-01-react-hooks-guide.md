@@ -1,7 +1,7 @@
 ---
 slug: react-hooks-guide
 title: Complete Guide to React Hooks
-authors: [admin]
+authors: [autosec]
 tags: [react, frontend, javascript, tutorial]
 date: 2025-02-01T09:00
 description: A comprehensive guide to understanding and using React Hooks

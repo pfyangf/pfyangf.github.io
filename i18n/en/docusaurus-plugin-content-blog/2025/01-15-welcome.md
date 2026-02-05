@@ -1,7 +1,7 @@
 ---
 slug: welcome-to-my-blog
 title: Welcome to My Tech Blog
-authors: [admin]
+authors: [autosec]
 tags: [tutorial, frontend, backend]
 date: 2025-01-15T10:00
 ---
@@ -75,7 +75,7 @@ Creating a new article is very simple. Just create a new Markdown file in the `b
 ---
 slug: my-new-post
 title: My New Post
-authors: [admin]
+authors: [autosec]
 tags: [javascript, react]
 date: 2025-01-20T10:00
 ---

@@ -18,7 +18,6 @@ const config: Config = {
 
     // 错误处理
     onBrokenLinks: 'throw',
-    onBrokenMarkdownLinks: 'warn',
 
     // GitHub Pages 推荐配置
     trailingSlash: true,
@@ -280,6 +279,9 @@ const config: Config = {
     // Markdown 配置
     markdown: {
         mermaid: true,
+        hooks: {
+            onBrokenMarkdownLinks: 'warn',
+        },
     },
 
     // 脚本和样式表
