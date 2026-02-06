@@ -4,6 +4,7 @@ title: AI 与区块链安全的结合
 authors: [autosec]
 tags: [whitehat-spotlight]
 date: 2026-01-15T10:00
+image: https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=630&fit=crop
 ---
 
 探索人工智能如何改变区块链安全领域，以及未来的发展趋势。

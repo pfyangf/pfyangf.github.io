@@ -4,6 +4,7 @@ title: Layer 2 安全性分析
 authors: [autosec]
 tags: [whitehat-spotlight]
 date: 2025-07-22T10:00
+image: https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=630&fit=crop
 ---
 
 Layer 2 解决方案正在快速发展，但也带来了新的安全考虑。

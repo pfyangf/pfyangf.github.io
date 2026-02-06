@@ -4,6 +4,7 @@ title: 加密钱包恢复指南
 authors: [autosec]
 tags: [customers]
 date: 2025-11-25T10:00
+image: https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=630&fit=crop
 ---
 
 了解如何安全地备份和恢复加密钱包，避免资产永久丢失。

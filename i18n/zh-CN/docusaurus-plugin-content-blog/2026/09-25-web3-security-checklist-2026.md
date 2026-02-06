@@ -4,6 +4,7 @@ title: 2026 Web3 安全检查清单
 authors: [autosec]
 tags: [security-guides]
 date: 2026-09-25T10:00
+image: https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=630&fit=crop
 ---
 
 一份全面的 Web3 安全检查清单，帮助开发者和用户提高安全意识。

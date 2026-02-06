@@ -4,6 +4,7 @@ title: MEV 保护策略
 authors: [autosec]
 tags: [customers]
 date: 2026-05-12T10:00
+image: https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=630&fit=crop
 ---
 
 MEV（矿工可提取价值）对 DeFi 用户造成了巨大影响。了解如何保护自己免受 MEV 攻击。
