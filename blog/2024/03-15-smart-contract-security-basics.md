@@ -2,7 +2,7 @@
 slug: smart-contract-security-basics
 title: 智能合约安全基础
 authors: [autosec]
-tags: [customers]
+tags: [customers, announcements]
 date: 2024-03-15T10:00
 image: https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=630&fit=crop
 ---

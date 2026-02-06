@@ -18,7 +18,7 @@ function BlogListPageMetadata(props: Props): JSX.Element {
     return (
         <>
             <PageMetadata
-                title="The Immunefi Blog - Web3 Security Research"
+                title="The AutoSec Blog - Web3 Security Research"
                 description="Your source of news for the Security OS for the onchain economy. Expert analysis on blockchain vulnerabilities and smart contract security."
             />
             <SearchMetadata tag="blog_posts_list" />

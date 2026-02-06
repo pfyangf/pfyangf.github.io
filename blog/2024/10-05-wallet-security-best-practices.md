@@ -2,7 +2,7 @@
 slug: wallet-security-best-practices
 title: 加密钱包安全最佳实践
 authors: [autosec]
-tags: [customers]
+tags: [customers, bug-fix-reviews]
 date: 2024-10-05T10:00
 ---
 

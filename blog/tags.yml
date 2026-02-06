@@ -70,3 +70,24 @@ architecture:
   label: 架构设计
   permalink: /architecture
   description: 软件架构设计
+
+# 博客侧栏与导航使用的标签（不设置 permalink，使用默认 /tags/<key>）
+announcements:
+  label: Announcements
+  description: 公告与动态
+
+bug-fix-reviews:
+  label: Bug Fix Reviews
+  description: 漏洞修复与复盘
+
+customers:
+  label: Customers
+  description: 客户案例与故事
+
+whitehat-spotlight:
+  label: Whitehat Spotlight
+  description: 白帽安全聚焦
+
+security-guides:
+  label: Security Guides
+  description: 安全指南

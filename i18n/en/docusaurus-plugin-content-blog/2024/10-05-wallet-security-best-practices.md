@@ -2,7 +2,7 @@
 slug: wallet-security-best-practices
 title: Cryptocurrency Wallet Security Best Practices
 authors: [autosec]
-tags: [customers]
+tags: [customers, bug-fix-reviews]
 date: 2024-10-05T10:00
 ---
 

@@ -56,6 +56,9 @@ const config: Config = {
                     // 博客路由路径
                     routeBasePath: '/',
 
+                    // 禁用插件自带的 archive，使用 src/pages/archive.tsx
+                    archiveBasePath: null,
+
                     // 博客文章目录
                     path: './blog',
 
