@@ -2,7 +2,7 @@
 slug: layer2-security-analysis
 title: Layer 2 安全性分析
 authors: [autosec]
-tags: [Layer2, 扩容, 安全]
+tags: [whitehat-spotlight]
 date: 2025-07-22T10:00
 ---
 

@@ -2,7 +2,7 @@
 slug: web3-phishing-attacks
 title: Guide to Preventing Web3 Phishing Attacks
 authors: [autosec]
-tags: [phishing attacks, Web3 security, protection]
+tags: [security-guides]
 date: 2025-02-10T10:00
 ---
 

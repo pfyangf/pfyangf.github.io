@@ -2,7 +2,7 @@
 slug: zero-knowledge-proofs-intro
 title: 零知识证明入门指南
 authors: [autosec]
-tags: [零知识证明, 隐私, ZK]
+tags: [security-guides]
 date: 2026-03-20T10:00
 ---
 

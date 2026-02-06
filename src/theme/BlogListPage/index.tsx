@@ -11,6 +11,7 @@ import SearchMetadata from '@theme/SearchMetadata';
 import type { Props } from '@theme/BlogListPage';
 import BlogPostItems from '@theme/BlogPostItems';
 import Hero from '@site/src/components/Hero';
+import Link from '@docusaurus/Link';
 
 function BlogListPageMetadata(props: Props): JSX.Element {
     const { metadata } = props;
@@ -82,6 +83,15 @@ function BlogListPageContent(props: Props): JSX.Element {
         }, 500);
     };
 
+    // 标签列表数据
+    const tags = [
+        { name: 'Announcements', path: '/tags/announcements' },
+        { name: 'Bug Fix Reviews', path: '/tags/bug-fix-reviews' },
+        { name: 'Customers', path: '/tags/customers' },
+        { name: 'Whitehat Spotlight', path: '/tags/whitehat-spotlight' },
+        { name: 'Security Guides', path: '/tags/security-guides' },
+    ];
+
     return (
         <BlogLayout>
             <Hero />
@@ -102,9 +112,10 @@ function BlogListPageContent(props: Props): JSX.Element {
                     </div>
                 )}
 
-                {/* 其他文章 */}
+                {/* 其他文章 - 左右布局 */}
                 <div className="row">
-                    <div className="col col--12">
+                    {/* 左侧：博客列表 (8列) */}
+                    <div className="col col--8">
                         <BlogPostItems items={displayedItems} />
 
                         {/* Loading indicator */}
@@ -127,6 +138,34 @@ function BlogListPageContent(props: Props): JSX.Element {
                                     🎉 You've reached the end! Check back soon for more security research.
                                 </p>
                             )}
+                        </div>
+                    </div>
+
+                    {/* 右侧：标签列表 (4列) */}
+                    <div className="col col--4">
+                        <div className="tags-sidebar">
+                            <h3 className="tags-sidebar-title">CONTINUE EXPLORING</h3>
+                            <ul className="tags-list">
+                                {tags.map((tag, idx) => (
+                                    <li key={idx}>
+                                        <Link to={tag.path} className="tag-link">
+                                            {tag.name}
+                                        </Link>
+                                    </li>
+                                ))}
+                            </ul>
+
+                            <div className="follow-section">
+                                <h3 className="tags-sidebar-title">FOLLOW OUR JOURNEY</h3>
+                                <div className="email-subscribe">
+                                    <input
+                                        type="email"
+                                        placeholder="Email address"
+                                        className="email-input"
+                                    />
+                                    <button className="subscribe-button">+ Subscribe</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -154,14 +193,6 @@ function BlogListPageContent(props: Props): JSX.Element {
           background: var(--ifm-color-emphasis-300);
         }
 
-        .divider-text {
-          color: var(--ifm-color-emphasis-600);
-          font-size: 0.75rem;
-          font-weight: 600;
-          letter-spacing: 0.1em;
-          white-space: nowrap;
-        }
-
         .continue-exploring {
           color: var(--ifm-color-emphasis-700);
           font-size: 0.875rem;
@@ -169,6 +200,83 @@ function BlogListPageContent(props: Props): JSX.Element {
           letter-spacing: 0.1em;
           margin-bottom: 2rem;
           text-transform: uppercase;
+        }
+
+        /* 标签侧边栏样式 */
+        .tags-sidebar {
+          position: sticky;
+          top: 2rem;
+        }
+
+        .tags-sidebar-title {
+          color: var(--ifm-color-emphasis-700);
+          font-size: 0.75rem;
+          font-weight: 600;
+          letter-spacing: 0.1em;
+          margin-bottom: 1rem;
+          text-transform: uppercase;
+        }
+
+        .tags-list {
+          list-style: none;
+          padding: 0;
+          margin: 0 0 2rem 0;
+        }
+
+        .tags-list li {
+          margin-bottom: 0.75rem;
+        }
+
+        .tag-link {
+          color: var(--ifm-color-emphasis-900);
+          font-size: 1rem;
+          font-weight: 500;
+          text-decoration: none;
+          transition: color 0.2s ease;
+        }
+
+        .tag-link:hover {
+          color: var(--ifm-color-primary);
+        }
+
+        .follow-section {
+          margin-top: 3rem;
+        }
+
+        .email-subscribe {
+          display: flex;
+          flex-direction: column;
+          gap: 0.75rem;
+        }
+
+        .email-input {
+          padding: 0.75rem;
+          border: 1px solid var(--ifm-color-emphasis-300);
+          border-radius: 4px;
+          font-size: 0.9rem;
+          background: var(--ifm-background-color);
+          color: var(--ifm-color-emphasis-900);
+        }
+
+        .email-input:focus {
+          outline: none;
+          border-color: var(--ifm-color-primary);
+        }
+
+        .subscribe-button {
+          padding: 0.75rem 1.5rem;
+          background: var(--ifm-color-primary);
+          color: white;
+          border: none;
+          border-radius: 4px;
+          font-size: 0.9rem;
+          font-weight: 600;
+          cursor: pointer;
+          transition: background 0.2s ease;
+        }
+
+        .subscribe-button:hover {
+          background: var(--ifm-color-primary-dark);
         }
 
         .loading-spinner {
@@ -190,6 +298,14 @@ function BlogListPageContent(props: Props): JSX.Element {
         @keyframes spin {
           to {
             transform: rotate(360deg);
+          }
+        }
+
+        /* 响应式设计 */
+        @media (max-width: 996px) {
+          .tags-sidebar {
+            position: static;
+            margin-top: 3rem;
           }
         }
       `}</style>

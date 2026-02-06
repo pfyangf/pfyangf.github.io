@@ -2,7 +2,7 @@
 slug: ai-blockchain-security
 title: AI 与区块链安全的结合
 authors: [autosec]
-tags: [AI, 区块链安全, 人工智能]
+tags: [whitehat-spotlight]
 date: 2026-01-15T10:00
 ---
 

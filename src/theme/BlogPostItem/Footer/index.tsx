@@ -75,7 +75,6 @@ export default function BlogPostItemFooter(): ReactNode {
               'col--3': tagsExists,
             })}
             style={{ paddingRight: '2rem' }}>
-            <ReadMoreLink blogPostTitle={title} to={metadata.permalink} />
           </div>
         )}
       </footer>

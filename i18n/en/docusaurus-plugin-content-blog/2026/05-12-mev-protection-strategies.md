@@ -2,7 +2,7 @@
 slug: mev-protection-strategies
 title: MEV Protection Strategies
 authors: [autosec]
-tags: [MEV, DeFi, transaction protection]
+tags: [customers]
 date: 2026-05-12T10:00
 ---
 
