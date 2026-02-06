@@ -1,4 +1,3 @@
-```markdown
 ---
 slug: blockchain-security-trends
 title: 2024 Blockchain Security Trends
@@ -48,4 +47,3 @@ Developers should:
 ## Conclusion
 
 Blockchain security is an evolving field that requires ongoing attention.
-```

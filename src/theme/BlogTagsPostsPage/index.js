@@ -39,7 +39,6 @@ function BlogTagsPostsPageContent({ tag, items, sidebar, listMetadata }) {
             {tag.unlisted && <Unlisted />}
             <header className="margin-bottom--xl" style={{ textAlign: 'center' }}>
                 <Heading as="h1">{displayTitle}</Heading>
-                {tag.description && <p>{tag.description}</p>}
             </header>
             <BlogPostItems items={items} />
             <BlogListPaginator metadata={listMetadata} />
