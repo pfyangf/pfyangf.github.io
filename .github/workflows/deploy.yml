@@ -69,7 +69,7 @@ jobs:
           scp -i ~/.ssh/deploy_key -r build.tar.gz $SERVER_USER@$SERVER_HOST:$SERVER_DEPLOY_PATH/
           
           # 执行服务器端部署脚本（可选）
-          ssh -i ~/.ssh/deploy_key $SERVER_USER@$SERVER_HOST "cd $SERVER_DEPLOY_PATH && rm -rf build && mv build.tar.gz build.tar.gz.bak && tar -xzf build.tar.gz && rm -f build.tar.gz" || true
+          ssh -i ~/.ssh/deploy_key $SERVER_USER@$SERVER_HOST "cd $SERVER_DEPLOY_PATH && rm -rf build && tar -xzf build.tar.gz && rm -f build.tar.gz" || true
           
           # 清理临时文件
           rm -f ~/.ssh/deploy_key
